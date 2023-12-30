@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company</title>
+    <link rel="icon" href="./assets/Images/webp/favicon.webp">
+    <link rel="stylesheet" href="./assets/Css/style.css">
+    <link rel="stylesheet" href="./assets/Css/root.css">
+    <link rel="stylesheet" href="./assets/js/style.js">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body class="overflow-hidden">
+
+    <div id="preloader" class="overflow-hidden">
+        <div id="preloader_bg" class="d-flex align-items-center justify-content-center z-1000">
+            <img class="preloader_img" src="./assets/Images/webp/Logo.webp" alt="Yoomi_logo">
+        </div>
+    </div>
+
+    <header class="white_bg position-relative pb-5">
+        <div class="header_bg">
+            <nav>
+                <div class="container-fluid px_60px py-4">
+                    <div class=" d-flex justify-content-between align-items-center">
+                        <a href="#"><img class="max_w_120px" src="./assets/Images/webp/logo.webp" alt="logo"></a>
+                        <ul class="mb-0 ps-0 d-lg-flex gap-3 gap-xl-4 text-white d-none d-lg-block d-none">
+                            <li><a href="#home" class="ff-DM-Sans fs_16 fw-medium white">Home</a>
+                            </li>
+                            <li><a href="#your_benifit" class="ff-DM-Sans fs_16 fw-medium white">Your benefits</a>
+                            </li>
+                            <li><a href="#our_process" class="ff-DM-Sans fs_16 fw-medium white">Our
+                                    process</a>
+                            </li>
+                            <li><a href="#our_work" class="ff-DM-Sans fs_16 fw-medium white">Our works</a></li>
+                            <li><a href="#testamonial" class="ff-DM-Sans fs_16 fw-medium white">Testimonials</a>
+                            </li>
+                            <li><a href="#Start_project" class="ff-DM-Sans fs_16 fw-medium white">Start a project</a>
+                            </li>
+                        </ul>
+
+                        <button class="btn_1 d-lg-block d-none fw-bold tracking-3 fs_14 ff-DM-Sans">Get started</button>
+
+                        <button id="openNav" onclick="openNav()" class="menu d-lg-none" type="button">&#9776</button>
+                        <div id="Menu"
+                            class="d-lg-none navbar1 d-flex justify-content-center align-items-center text-center">
+                            <button class="menu position-absolute closbtn" onclick="closeNav()"
+                                type="button">&times;</button>
+                            <ul class="mb-0 ps-0 d-flex flex-column gap-4 text-white">
+                                <li onclick="closeNav()"><a href="#home"
+                                        class="ff-DM-Sans fs_16 fw-medium white">Home</a></li>
+                                <li onclick="closeNav()"><a href="#your_benifit"
+                                        class="ff-DM-Sans fs_16 fw-medium white">Your benefits</a>
+                                </li>
+                                <li onclick="closeNav()"><a href="#our_process"
+                                        class="ff-DM-Sans fs_16 fw-medium white">Our process</a>
+                                </li>
+                                <li onclick="closeNav()"><a href="#our_work"
+                                        class="ff-DM-Sans fs_16 fw-medium white">Our
+                                        works</a>
+                                </li>
+                                <li onclick="closeNav()"><a href="#testamonial"
+                                        class="ff-DM-Sans fs_16 fw-medium white">Testimonials</a>
+                                </li>
+                                <li onclick="closeNav()"><a href="#Start_project"
+                                        class="ff-DM-Sans fs_16 fw-medium white">Start a project</a>
+                                </li>
+                                <button class="ff-DM-Sans fs_14 fw-bold tracking-3 white btn_1" onclick="closeNav()">Get
+                                    started</button>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section>
+                <div class="d-flex flex-column align-items-center justify-content-center text-center pt-2" id="home">
+                    <h1 class="mb-0 ff-DM-Sans fs_68 fw-medium leading-122 text-white pt-5 mt-5 px-2 z-1"
+                        data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear">
+                        A Digital Product Design Agency</h1>
+
+                    <p class="text-white opacity-75 ff-DM-Sans fs_20 fw-normal leading-34px mb-0 pt-2 px-2"
+                        data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear">We are
+                        Creative and Professional Digital Agency</p>
+
+                    <div class="mt-4 pt-3" data-aos="fade-down" data-aos-duration="800" data-aos-delay="300"
+                        data-aos-easing="linear">
+                        <button class="ff-DM-Sans fs_14 fw-bold leading-148 tracking-3 btn_1">Get
+                            started</button>
+                    </div>
+                    <div class="dashboard_img d-flex align-items-center position-relative justify-content-center">
+
+                        <img class="position-absolute notification pe-2" src="./assets/Images/Png/notification.png"
+                            alt="notification" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300"
+                            data-aos-easing="linear">
+
+                        <img class="position-absolute graph_img" src="./assets/Images/webp/graph_img.webp"
+                            alt="graph_img.webp" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300"
+                            data-aos-easing="linear">
+
+                        <img class="position-absolute card_absolute" src="./assets/Images/webp/card.webp"
+                            alt="card.webp" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300"
+                            data-aos-easing="ease-in-out">
+
+                        <img class="max-w-1044px w-100" src="./assets/Images/webp/dashboard.webp" alt="dashboard.webp">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </header>
+    <!-- section_2nd -->
+    <section class="overflow-hidden white_bg pt-0 pt-md-5" id="your_benifit">
+        <div class="py-184px position-relative mt-5">
+            <img class="position-absolute vector_5 d-lg-block d-none" src="./assets/Images/webp/vector_5.webp"
+                alt="vector_5">
+            <img class="position-absolute vector_6 d-lg-block d-none" src="./assets/Images/webp/vector_6.webp"
+                alt="vector_6">
+            <div class="my_container position-relative z-1">
+                <p class="light-green opacity-50 fs_12 fw-bold leading-122 tracking-1 ff-DM-Sans mb-0 pt-4 pt-sm-5 pt-lg-0"
+                    data-aos="fade-right" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                    features</p>
+
+                <h1 class="ff-DM-Sans fs_48 fw-medium leading-122 light_black py-4 mb-0" data-aos="fade-right"
+                    data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                    We are here to help <span class="d-sm-block">you with</span></h1>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-sm-6" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300"
+                        data-aos-easing="linear">
+                        <div class="card_1 mx-auto">
+                            <img class="w-50px" src="./assets/Images/webp/card_img_1.webp" alt="card_img_1">
+
+                            <div class="d-flex flex-column">
+                                <h1 class="mb-0 light_black fs_22 fw-bold ff-DM-Sans leading_30px pb-3">Grow your
+                                    business
+                                </h1>
+
+                                <p class="ff-DM-Sans fw-normal grey leading_150 mb-0 pb-2"><span class="fw-bold">The
+                                        magic wand</span> for success is in figuring out how to bring in the profits and
+                                    ensure the capacity needed to sustain that growth for posterity.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 pt-4 pt-sm-0" data-aos="flip-left" data-aos-duration="500"
+                        data-aos-delay="300" data-aos-easing="linear">
+                        <div class="card_1 mx-auto">
+                            <img class="w-50px" src="./assets/Images/webp/card_img_2.webp" alt="card_img_1">
+
+                            <div class="d-flex flex-column">
+                                <h1 class=" light_black fs_22 fw-bold ff-DM-Sans leading_30px mb-0 pb-3">Drive more
+                                    sales
+                                </h1>
+
+                                <p class="ff-DM-Sans fw-normal grey leading_150 mb-0 pb-2">A potential customer, once
+                                    lost, is hard to retain back. But <span class="fw-bold">keeping some critical</span>
+                                    factors in mind, we can, for sure, use these loyalty programs as customer retention
+                                    tools.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 pt-4 pt-lg-0" data-aos="flip-left" data-aos-duration="500"
+                        data-aos-delay="300" data-aos-easing="linear">
+                        <div class="card_1 mx-auto">
+                            <img class="w-50px" src="./assets/Images/webp/card_img_3.webp" alt="card_img_1">
+
+                            <div class="d-flex flex-column">
+                                <h1 class="mb-0 light_black fs_22 fw-bold ff-DM-Sans leading_30px pb-3 mb-0">Handle by
+                                    Expert
+                                </h1>
+
+                                <p class="ff-DM-Sans fw-normal grey leading_150 mb-0 pb-2">We know how we candevelop
+                                    deep, trust-based relationships with our clients, and work together more
+                                    collaboratively
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 pt-4" data-aos="flip-left" data-aos-duration="500"
+                        data-aos-delay="300" data-aos-easing="linear">
+                        <div class="card_1 mx-auto">
+                            <img class="w-50px" src="./assets/Images/webp/card_img_4.webp" alt="card_img_1">
+
+                            <div class="d-flex flex-column">
+                                <h1 class="mb-0 light_black fs_22 fw-bold ff-DM-Sans leading_30px pb-3">UX Research</h1>
+
+                                <p class="ff-DM-Sans fw-normal grey leading_150 mb-0 pb-2">UX research
+                                    is the systematic study of target users and their requirements, to add realistic
+                                    contexts and insights to design processes.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 pt-4" data-aos="flip-left" data-aos-duration="500"
+                        data-aos-delay="300" data-aos-easing="linear">
+                        <div class="card_1 mx-auto">
+                            <img class="w-50px" src="./assets/Images/webp/card_img_5.webp" alt="card_img_1">
+
+                            <div class="d-flex flex-column">
+                                <h1 class="mb-0 light_black fs_22 fw-bold ff-DM-Sans leading_30px pb-3">Business Audit
+                                </h1>
+
+                                <p class="ff-DM-Sans fw-normal grey leading_150 mb-0 pb-2">An audit examines
+                                    your business's financial records to verify they are accurate. This is done
+                                    through a systematic review of your transactions.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 pt-4" data-aos="flip-left" data-aos-duration="500"
+                        data-aos-delay="300" data-aos-easing="linear">
+                        <div class="card_1 mx-auto">
+                            <img class="w-50px" src="./assets/Images/webp/card_img_6.webp" alt="card_img_1">
+
+                            <div class="d-flex flex-column">
+                                <h1 class="mb-0 light_black fs_22 fw-bold ff-DM-Sans leading_30px pb-3">Data tracking
+                                </h1>
+
+                                <p class="ff-DM-Sans fw-normal grey leading_150 mb-0 pb-2">The hardware and software,
+                                    which when used together allows you to know where something is at any point in time
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section_3rd -->
+    <section class="overflow-hidden position-relative" id="our_process">
+        <img class="position-absolute top-0 start-0 vector_7 d-sm-block d-none" src="./assets/Images/webp/Vector_7.webp"
+            alt="Vector_7">
+        <img class="position-absolute top-0 end-0 vector_8 d-sm-block d-none" src="./assets/Images/webp/Vector_8.webp"
+            alt="Vector_8">
+        <img class="position-absolute top-50 start-50 translate-middle-x d-xl-block d-none"
+            src="./assets/Images/webp/Vector_9.webp" alt="Vector_9">
+        <img class="position-absolute bottom-0 start-0 d-xl-block d-none" src="./assets/Images/webp/Vector_10.webp"
+            alt="Vector_10">
+        <img class="position-absolute vector_11 d-xl-block d-none" src="./assets/Images/webp/Vector_11.webp"
+            alt="Vector_11">
+        <img class="position-absolute vector_12 d-xl-block d-none" src="./assets/Images/webp/Vector_12.webp"
+            alt="Vector_12">
+        <div class="bg_gradient_1 py-184px">
+            <div class="position-relative z-1" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="300"
+                data-aos-easing="linear">
+                <p
+                    class="ff-DM-Sans fw-bold fs_12 text-white opacity-50 leading-122 tracking-1 mb-0 d-flex align-items-center justify-content-center">
+                    how it works</p>
+
+                <h1
+                    class="text-white fw-medium fs_48 leading-122 ff-DM-Sans tracking-2 mb-0 tracking-2 d-flex align-items-center justify-content-center pt-3">
+                    Our Process </h1>
+
+                <p
+                    class="mb-0 text-white ff-DM-Sans fs_20 fw-normal leading-34px max-w-718px text-center mx-auto pt-4 px-2">
+                    We know the best solution for all of your business ideas and we can help you solve all business
+                    problems</p>
+            </div>
+
+            <div class="my_container position-relative z-1">
+                <div class="card_2 mt_32px" data-aos="flip-down" data-aos-duration="500" data-aos-delay="300"
+                    data-aos-easing="linear">
+                    <div class="row align-items-center justify-content-lg-between justify-content-center">
+                        <div class="col-lg-6 col-md-9 col-sm-10">
+                            <img class="w-100" src="./assets/Images/webp/business_audit.webp" alt="business_audit.webp">
+                        </div>
+
+                        <div class="col-lg-6 px-4 px-lg-0 pb-4 pb-lg-0">
+                            <img class="w-50px" src="./assets/Images/webp/pen_img.webp" alt="pen_img.webp">
+
+                            <h1 class="fs_22 fw-bold light_black ff-DM-Sans leading_30px mb-0">Business Audit</h1>
+
+                            <p class="mb-0 pt-3 ff-DM-Sans fw-normal grey pe-lg-3 leading_150">An audit examines
+                                your business's financial records to verify they are accurate. This is done through a
+                                systematic review of your transactions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_2 mt_32px" data-aos="flip-down" data-aos-duration="500" data-aos-delay="300"
+                    data-aos-easing="linear">
+                    <div class="row align-items-center justify-content-lg-between justify-content-center">
+                        <div class="col-lg-6 col-md-9 col-sm-10">
+                            <img class="w-100" src="./assets/Images/webp/overal_rate.webp" alt="business_audit.webp">
+                        </div>
+
+                        <div class="col-lg-6 px-4 px-lg-0 pb-4 pb-lg-0">
+                            <img class="w-50px" src="./assets/Images/webp/Data_tracking_img.webp" alt="pen_img.webp">
+
+                            <h1 class="fs_22 fw-bold light_black ff-DM-Sans leading_30px mb-0">Data tracking</h1>
+
+                            <p class="mb-0 pt-3 ff-DM-Sans fw-normal grey pe-lg-3 leading_150 max-w-470px">The
+                                hardware and software, which when used together allows you to know where something is at
+                                any point in time</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_2 mt_32px" data-aos="flip-down" data-aos-duration="500" data-aos-delay="300"
+                    data-aos-easing="linear">
+                    <div class="row align-items-center justify-content-lg-between justify-content-center">
+                        <div class="col-lg-6 col-md-9 col-sm-10">
+                            <img class="w-100" src="./assets/Images/webp/scenerio.webp" alt="business_audit.webp">
+                        </div>
+
+                        <div class="col-lg-6 px-4 px-lg-0 pb-4 pb-lg-0">
+                            <img class="w-50px" src="./assets/Images/webp/result.webp" alt="pen_img.webp">
+
+                            <h1 class="fs_22 fw-bold light_black ff-DM-Sans leading_30px mb-0">Results</h1>
+
+                            <p class="mb-0 pt-3 ff-DM-Sans fw-normal grey pe-lg-3 leading_150">An audit examines
+                                your business's financial records to verify they are accurate. This is done through a
+                                systematic review of your transactions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- section_4th -->
+    <section class="overflow-hidden white_bg" id="Start_project">
+        <div class="py-184px">
+            <div data-aos="fade-down" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear">
+                <p
+                    class="light-green opacity-50 fs_12 fw-bold leading-122 tracking-1 ff-DM-Sans d-flex align-items-center justify-content-center mb-0">
+                    BRANDS</p>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center text-center py-4" data-aos="zoom-in"
+                data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear">
+                <h1 class="ff-DM-Sans fs_48 fw-medium leading-122 max-w-897px light_black mb-0 px-2">
+                    We work with thousands of the world’s leading brands</h1>
+            </div>
+
+            <div class="my_container mt-2">
+
+                <div class="slider-container" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="300"
+                    data-aos-easing="linear">
+                    <div class="d-flex align-items-center justify-content-between slider gap-5 overflow-y-hidden">
+                        <a href="https://www.mazda.com/"><img class="max-w-144px" src="./assets/Images/webp/mazda.webp"
+                                alt="mazda"></a>
+
+                        <a href="#"><img class="max-w-144px" src="./assets/Images/webp/Atlanssian.webp" alt="mazda"></a>
+
+                        <a href="https://www.smashingmagazine.com/"><img class="max-w-144px"
+                                src="./assets/Images/webp/smashing.webp" alt="mazda"></a>
+
+                        <a href="https://www.qantas.com/in/en.html"><img class="max-w-144px"
+                                src="./assets/Images/webp/Qantas.webp" alt="mazda"></a>
+
+                        <a href="https://www.buysellads.com/"><img class="max-w-144px"
+                                src="./assets/Images/webp/BuySellAds.webp" alt="mazda"></a>
+
+                        <a href="https://www.mazda.com/"><img class="max-w-144px" src="./assets/Images/webp/mazda.webp"
+                                alt="mazda"></a>
+
+                        <a href="#"><img class="max-w-144px" src="./assets/Images/webp/Atlanssian.webp" alt="mazda"></a>
+
+                        <a href="https://www.smashingmagazine.com/"><img class="max-w-144px"
+                                src="./assets/Images/webp/smashing.webp" alt="mazda"></a>
+
+                        <a href="https://www.qantas.com/in/en.html"><img class="max-w-144px"
+                                src="./assets/Images/webp/Qantas.webp" alt="mazda"></a>
+
+                        <a href="https://www.buysellads.com/"><img class="max-w-144px"
+                                src="./assets/Images/webp/BuySellAds.webp" alt="mazda"></a>
+
+                    </div>
+                </div>
+
+                <div class="slider-container pt-lg-5 pt-4" data-aos="zoom-in" data-aos-duration="700"
+                    data-aos-delay="300" data-aos-easing="linear">
+                    <div class="d-flex align-items-center justify-content-between slider gap-5 overflow-y-hidden">
+                        <a href="https://www.gonitro.com/"><img class="max-w-144px"
+                                src="./assets/Images/webp/nitro.webp" alt="mazda"></a>
+
+                        <a href="https://uxmag.com/articles/css-mania-site-of-the-year"><img class="max-w-144px"
+                                src="./assets/Images/webp/CssMania.webp" alt="mazda"></a>
+
+                        <a href="https://www.popsugar.com/"><img class="max-w-144px"
+                                src="./assets/Images/webp/PageSuger.webp" alt="mazda"></a>
+
+                        <a href="https://www.linkedin.com/pulse/20141031134246-67665978-talentbin-by-monster"><img
+                                class="max-w-144px" src="./assets/Images/webp/TelentBin.webp" alt="mazda"></a>
+
+                        <a href="https://civicrm.org/"><img class="max-w-144px" src="./assets/Images/webp/Civicrm.webp"
+                                alt="mazda"></a>
+
+                        <a href="https://www.gonitro.com/"><img class="max-w-144px"
+                                src="./assets/Images/webp/nitro.webp" alt="mazda"></a>
+
+                        <a href="https://uxmag.com/articles/css-mania-site-of-the-year"><img class="max-w-144px"
+                                src="./assets/Images/webp/CssMania.webp" alt="mazda"></a>
+
+                        <a href="https://www.popsugar.com/"><img class="max-w-144px"
+                                src="./assets/Images/webp/PageSuger.webp" alt="mazda"></a>
+
+                        <a href="https://www.linkedin.com/pulse/20141031134246-67665978-talentbin-by-monster"><img
+                                class="max-w-144px" src="./assets/Images/webp/TelentBin.webp" alt="mazda"></a>
+
+                        <a href="https://civicrm.org/"><img class="max-w-144px" src="./assets/Images/webp/Civicrm.webp"
+                                alt="mazda"></a>
+
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-center" data-aos="fade-down"
+                    data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear">
+                    <p class="ff-DM-Sans fs_16 fw-normal leading-148 mt-4 pt-3 dark_black max-w-381px text-center">
+                        You're going to be in good company. We work with world's leading brands.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section_5th -->
+    <section class="overflow-hidden" id="our_work">
+        <div class="bg_gradient_2">
+            <div class="my_container py-lg-5">
+                <div class="py-5">
+                    <div
+                        class="row flex-lg-row flex-column-reverse align-items-center justify-content-between py-lg-5 py-4 mt-lg-2">
+                        <div class="col-lg-5 mt-5 mt-lg-0" data-aos="fade-right" data-aos-duration="500"
+                            data-aos-delay="300" data-aos-easing="linear">
+                            <p class="ff-DM-Sans fw-bold fs_12 text-white opacity-50 leading-122 tracking-1 mb-0">
+                                start with us</p>
+                            <h1
+                                class="text-white fw-medium fs_48 leading-122 ff-DM-Sans tracking-2 mb-0 tracking-2 pe-lg-3 py-4">
+                                Start working faster today
+                            </h1>
+                            <p class="mb-0 text-white ff-DM-Sans fs_20 fw-normal leading-34px max-w-408px pb-4">We know
+                                the best solution for all of your business ideas and we can help you solve all business
+                                problems
+                            </p>
+
+                            <button class="ff-DM-Sans fs_14 fw-bold leading-148 tracking-3 mt-1 btn_1">Get
+                                started</button>
+                        </div>
+
+                        <div class="col-lg-7 col-md-9 col-sm-10 position-relative">
+                            <img class="position-absolute end_5 d-none d-sm-block"
+                                src="./assets/Images/webp/purple_img.webp" alt="purple_img.webp" data-aos="fade-right"
+                                data-aos-duration="1000" data-aos-delay="300" data-aos-easing="linear">
+                            <img class="w-100 position-relative z-1" src="./assets/Images/webp/total_time_img.webp"
+                                alt="total_time_img" data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300"
+                                data-aos-easing="linear">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer_sec -->
+    <footer class="bg_black overflow-hidden mt_-1" id="testamonial">
+        <div class="my_container">
+            <div class="py-5">
+                <div class="d-flex align-items-center justify-content-between gap-lg-4 gap-5 flex-wrap">
+                    <a href="#"><img src="./assets/Images/webp/logo.webp" alt="logo"></a>
+
+                    <div class="d-flex justify-content-center flex-wrap gap_32 order-2 order-lg-1">
+                        <a href="#home" class="text_white ff-DM-Sans fw-medium leading-100 fs_16">Home</a>
+                        <a href="#your_benifit" class="text_white ff-DM-Sans fw-medium leading-100 fs_16">Your
+                            benefits</a>
+                        <a href="#our_process" class="text_white ff-DM-Sans fw-medium leading-100 fs_16">Our process</a>
+                        <a href="#our_work" class="text_white ff-DM-Sans fw-medium leading-100 fs_16">Our works</a>
+                        <a href="#testamonial"
+                            class="text_white ff-DM-Sans fw-medium leading-100 fs_16">Testimonials</a>
+                        <a href="#Start_project" class="text_white ff-DM-Sans fw-medium leading-100 fs_16">Start a
+                            project</a>
+                    </div>
+
+                    <div class="d-flex align-items-center order-1 order-lg-2 gap-4">
+                        <a href="https://www.facebook.com/"><img class="w_20px" src="./assets/Images/webp/Facebook.webp"
+                                alt="Facebook"></a>
+                        <a href="https://www.instagram.com/"><img class="w_20px"
+                                src="./assets/Images/webp/Instagram.webp" alt="Instagram"></a>
+                        <a href="https://twitter.com/Wuaocoin"><img class="w_20px"
+                                src="./assets/Images/webp/Twitter.webp" alt="Twitter"></a>
+                    </div>
+                </div>
+
+                <img class="w-100 py-4" src="./assets/Images/webp/Divider.webp" alt="Divider">
+
+                <div
+                    class="d-flex align-items-center justify-content-sm-between justify-content-center flex-wrap gap-4">
+                    <a href="#" class="ff-DM-Sans fw-normal fs_15 leading_25px mb-0 text_white order-2 order-sm-1">©
+                        2021 Company</a>
+                    <div class="d-flex align-items-center gap-4 order-1 order-sm-2">
+                        <a href="#" class="text_white ff-DM-Sans fw-normal leading-20px">Privacy policy</a>
+                        <a href="#" class="text_white ff-DM-Sans fw-normal leading-20px">Term of service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a id="button"></a>
+
+    <script src="./assets/js/style.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- ********************AOS js file******************** -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        function openNav() {
+            document.getElementById("Menu").style.left = "0%";
+            document.getElementsByTagName("body")[0].style.overflow = "hidden";
+
+        }
+        function closeNav() {
+            document.getElementById("Menu").style.left = "-100%";
+            document.getElementsByTagName("body")[0].style.overflow = "scroll";
+        }
+
+        var btn = $('#button');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+
+        setTimeout(() => {
+            const preloader = document.getElementById("preloader");
+
+            preloader.style.display = "none";
+
+            document.body.classList.remove("overflow-hidden");
+        }, 3000);
+
+        AOS.init({ once: true });
+    </script>
+</body>
+
+</html>
