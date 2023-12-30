@@ -295,6 +295,10 @@
     color: #3B3E43;
 }
 
+.white {
+    color: white !important;
+}
+
 /* slider */
 .slider-container {
     place-items: center;
