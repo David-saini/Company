@@ -392,6 +392,11 @@
     max-width: 1044px;
 }
 
+.dotted_img {
+    left: 50%;
+    top: 5%;
+    height: 90%;
+}
 
 @media (min-width:1200px) {
     .notification {
