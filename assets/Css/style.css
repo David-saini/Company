@@ -83,15 +83,6 @@
     right: 20px;
 }
 
-.white {
-    color: white;
-    transition: all linear 300ms;
-}
-
-.white:hover {
-    color: black;
-}
-
 /* nav */
 
 /* back to top */
@@ -259,9 +250,28 @@
 }
 
 .btn_1:hover {
-    color: white;
-    border: 1px solid #0d0d0d;
-    background-color: #0d0d0d;
+    color: #57B3FE;
+    border: 1px solid #fff;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px #fff;
+}
+
+.underline::after {
+    content: '';
+    width: 0%;
+    left: 50%;
+    height: 2px;
+    color: #ffffff;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: -10%;
+    transition: all 500ms ease-in-out;
+}
+
+.underline:hover::after {
+    left: 0;
+    width: 100%;
+    color: #ffffff;
 }
 
 .light-green {
