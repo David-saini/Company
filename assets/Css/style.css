@@ -240,12 +240,12 @@
 }
 
 .btn_1 {
-    max-width: 194px;
     border: 1px solid #FFF;
     border-radius: 60px;
     padding: 20px 50px;
     color: #57B3FE;
     background-color: white;
+    text-transform: uppercase;
     transition: all 300ms linear;
 }
 
@@ -412,6 +412,18 @@
     height: 90%;
 }
 
+.max_w_259px {
+    max-width: 259px !important;
+    width: 100% !important;
+}
+
+@media (min-width:1280px) {
+    .px_60px {
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+    }
+}
+
 @media (min-width:1200px) {
     .notification {
         top: 18%;
@@ -438,11 +450,6 @@
 
     .vector_8 {
         max-width: 500px !important;
-    }
-
-    .px_60px {
-        padding-left: 60px !important;
-        padding-right: 60px !important;
     }
 }
 
