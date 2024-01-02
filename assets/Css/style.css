@@ -385,6 +385,10 @@
     max-width: 470px;
 }
 
+.max-w-418px {
+    max-width: 425px;
+}
+
 .w-50px {
     width: 70px;
 }
@@ -535,6 +539,10 @@
 }
 
 @media (max-width:992px) {
+    .card_2 {
+        padding: 30px 15px 30px 15px !important;
+    }
+
     .max_w_259px {
         max-width: 173px;
         width: 100%;
