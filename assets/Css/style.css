@@ -480,6 +480,10 @@
 }
 
 @media (min-width:992px) {
+    .mt_5 {
+        margin-top: 150px !important;
+    }
+
     .max_w_259px {
         max-width: 173px;
         width: 100%;
@@ -539,6 +543,10 @@
 }
 
 @media (max-width:992px) {
+    .mt_5 {
+        margin-top: 110px !important;
+    }
+
     .card_2 {
         padding: 30px 15px 30px 15px !important;
     }
@@ -586,6 +594,9 @@
 }
 
 @media (max-width:768px) {
+    .mt_5 {
+        margin-top: 90px !important;
+    }
 
     .card_1 {
         padding: 30px 20px 0px 20px;
